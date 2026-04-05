@@ -166,9 +166,9 @@ plt.title('Student Performance by Subject')
 plt.ylabel('Marks')
 plt.show()
 
-'''Write a Python program to create bar plot of scores by group and gender.
-Use multiple X values on the same chart for men and women.
-Sample Data: Means (men) = (22, 30, 35, 35, 26) Means (women) = (25, 32, 30, 35, 29)'''  # NOTE- [''' REPRESENTS MULTILINE STRINGS EQUIVALENT TO SINGLE/MULTILINE COMMENTS IN PYTHON ].
+#'''Write a Python program to create bar plot of scores by group and gender.
+#Use multiple X values on the same chart for men and women.
+#Sample Data: Means (men) = (22, 30, 35, 35, 26) Means (women) = (25, 32, 30, 35, 29)'''  # NOTE- [''' REPRESENTS MULTILINE STRINGS EQUIVALENT TO SINGLE/MULTILINE COMMENTS IN PYTHON ].
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -182,10 +182,10 @@ plt.xticks(x,['G1','G2','G3','G4','G5'])
 plt.legend()
 plt.show()
 
-''' QUESTION 9
-a. Calculate total sale data for last year for each product and show it using a Pie chart
-Note: In pie chart display Number of units sold per year for each product in percentage
-b. Read Bathing soap facewash of all months and display it using the Subplot.'''
+#''' QUESTION 9
+#a. Calculate total sale data for last year for each product and show it using a Pie chart
+#Note: In pie chart display Number of units sold per year for each product in percentage
+#b. Read Bathing soap facewash of all months and display it using the Subplot.'''
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -217,7 +217,7 @@ plt.plot(df['month_number'], df['facewash'], color='red')
 plt.title('Sales data of a facewash')
 plt.show()
 
-'''QUES - 10 Read the total profit of each month and show it using the histogram to see the most common profit ranges.'''
+#'''QUES - 10 Read the total profit of each month and show it using the histogram to see the most common profit ranges.'''
 
 import pandas as pd
 import matplotlib.pyplot as plt
